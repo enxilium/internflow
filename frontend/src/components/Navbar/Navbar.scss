@@ -1,0 +1,86 @@
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    z-index: 2;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__navbrand-img {
+        width: 20rem;
+    }
+
+    &__navlinks {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+        // & > .navbar__navlink:hover {
+        //     transition: all 2s;
+        // }
+
+        // & > .navbar__navlink:hover::after {
+
+        // }
+    }
+
+    &__navlink {
+        color: #fff;
+        font-family: "Cerebri Sans Pro";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+        position: relative;
+        transition: all 0.2s;
+
+        &::after {
+            transition: width 0.1s ease;
+            content: "";
+            width: 0;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 1rem;
+
+            position: absolute;
+            bottom: -0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &:hover {
+            transform: translateY(-1px);
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        &__container {
+            justify-content: center;
+        }
+
+        &__navbrand-img {
+            display: none;
+        }
+
+        &__navlinks {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        &__navlink {
+            font-size: 1.4rem;
+            text-wrap: nowrap;
+        }
+    }
+}

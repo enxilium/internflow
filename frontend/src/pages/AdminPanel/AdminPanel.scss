@@ -1,0 +1,128 @@
+.admin-panel {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .form {
+        width: 80%;
+        margin: 3rem auto;
+        padding: 4rem 5rem;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.17);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10.3px);
+        -webkit-backdrop-filter: blur(10.3px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+
+        &__button {
+            margin-top: 3rem;
+            background-color: transparent;
+            border: 1px dashed #fff;
+        }
+    }
+
+    .heading-secondary {
+        text-align: center;
+    }
+
+    input {
+        padding: 1rem 2rem !important;
+        font-size: 1.8rem !important;
+        border-radius: 0.5rem !important;
+    }
+
+    label {
+        font-size: 2rem !important;
+        color: #fff !important;
+        font-weight: 600;
+    }
+
+    textarea {
+        padding: 1rem 2rem !important;
+        font-size: 1.8rem !important;
+        border-radius: 0.5rem !important;
+    }
+
+    select {
+        padding: 1rem 2rem !important;
+        font-size: 1.8rem !important;
+        border-radius: 0.5rem !important;
+    }
+
+    button {
+        font-size: 2rem !important;
+        padding: 1rem 2rem !important;
+        border-radius: 0.5rem !important;
+        height: auto !important;
+        font-weight: 600;
+    }
+
+    .city-input {
+        input {
+            padding: 1rem 0 !important;
+            font-size: 1.4rem !important;
+            border-radius: 0.5rem !important;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .admin-panel {
+        padding: 2rem 1rem !important;
+
+        .form {
+            width: 100%;
+            margin: 2rem auto;
+            padding: 3rem 1rem;
+            /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.17);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10.3px);
+            -webkit-backdrop-filter: blur(10.3px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+
+            &__button {
+                margin-top: 3rem;
+                background-color: transparent;
+                border: 1px dashed #fff;
+            }
+        }
+
+        .heading-secondary {
+            text-align: center;
+        }
+
+        input {
+            padding: 1rem 2rem !important;
+            font-size: 1.8rem !important;
+            border-radius: 0.5rem !important;
+        }
+
+        label {
+            font-size: 2rem !important;
+            color: #fff !important;
+            font-weight: 600;
+        }
+
+        textarea {
+            padding: 1rem 2rem !important;
+            font-size: 1.8rem !important;
+            border-radius: 0.5rem !important;
+        }
+
+        select {
+            padding: 1rem 2rem !important;
+            font-size: 1.8rem !important;
+            border-radius: 0.5rem !important;
+        }
+
+        button {
+            font-size: 2rem !important;
+            padding: 1rem 2rem !important;
+            border-radius: 0.5rem !important;
+            height: auto !important;
+            font-weight: 600;
+        }
+    }
+}

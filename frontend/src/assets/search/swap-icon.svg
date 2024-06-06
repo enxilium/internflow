@@ -1,0 +1,66 @@
+<svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Search (Desktop)" clip-path="url(#clip0_122_81)">
+<rect width="1440" height="1024" transform="translate(-303 -266)" fill="white"/>
+<g id="bg" clip-path="url(#clip1_122_81)">
+<path id="Vector" d="M1137 -266H-303V758H1137V-266Z" fill="black"/>
+<path id="Vector_2" d="M1137 -266H-303V758H1137V-266Z" fill="#EE46D3" fill-opacity="0.222042"/>
+<g id="Clip path group">
+<mask id="mask0_122_81" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-303" y="-266" width="1440" height="1024">
+<g id="clip0_50_327">
+<path id="Vector_3" d="M1137 -266H-303V758H1137V-266Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_122_81)">
+<g id="Group">
+<g id="Group_2" filter="url(#filter0_f_122_81)">
+<path id="Vector_4" d="M757.2 -136.08H-55.5V647.92H757.2V-136.08Z" fill="#907CFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Main">
+<g id="Back Panel">
+<g id="Rectangle 9" filter="url(#filter1_dd_122_81)">
+<rect x="-25" y="-24" width="413" height="733" rx="18" fill="#FEFEFE"/>
+</g>
+</g>
+<g id="Sidebar">
+<g id="Swap Icon">
+<g id="Swap 1">
+<path id="Vector_5" d="M5.875 2.375C5.875 1.96079 5.53921 1.625 5.125 1.625C4.71079 1.625 4.375 1.96079 4.375 2.375L5.875 2.375ZM5.125 13.75H5.875H5.125ZM2.21268 10.659C1.95534 10.3345 1.4836 10.28 1.15903 10.5373C0.834461 10.7947 0.779968 11.2664 1.03732 11.591L2.21268 10.659ZM2.84812 12.6676L2.26043 13.1336L2.84812 12.6676ZM7.40188 12.6676L6.8142 12.2016L7.40188 12.6676ZM9.21268 11.591C9.47003 11.2664 9.41554 10.7947 9.09097 10.5373C8.7664 10.28 8.29466 10.3345 8.03732 10.659L9.21268 11.591ZM4.90567 14.6076L4.78766 15.3483L4.78766 15.3483L4.90567 14.6076ZM5.34433 14.6076L5.46234 15.3483L5.46234 15.3483L5.34433 14.6076ZM13.125 13.75C13.125 14.1642 13.4608 14.5 13.875 14.5C14.2892 14.5 14.625 14.1642 14.625 13.75H13.125ZM13.875 2.375H13.125V2.375L13.875 2.375ZM9.78732 4.53403C9.52997 4.8586 9.58446 5.33034 9.90903 5.58768C10.2336 5.84503 10.7053 5.79054 10.9627 5.46597L9.78732 4.53403ZM11.5981 3.4574L11.0104 2.99143L11.5981 3.4574ZM16.1519 3.4574L16.7396 2.99143L16.1519 3.4574ZM16.7873 5.46597C17.0447 5.79054 17.5164 5.84503 17.841 5.58768C18.1655 5.33034 18.22 4.8586 17.9627 4.53403L16.7873 5.46597ZM13.6557 1.5174L13.5377 0.776745L13.5377 0.776745L13.6557 1.5174ZM14.0943 1.5174L14.2123 0.776745L14.2123 0.776745L14.0943 1.5174ZM4.375 2.375L4.375 13.75H5.875L5.875 2.375L4.375 2.375ZM1.03732 11.591L2.26043 13.1336L3.4358 12.2016L2.21268 10.659L1.03732 11.591ZM7.98957 13.1336L9.21268 11.591L8.03732 10.659L6.8142 12.2016L7.98957 13.1336ZM2.26043 13.1336C2.73675 13.7343 3.13309 14.236 3.48841 14.5927C3.84707 14.9528 4.25695 15.2637 4.78766 15.3483L5.02367 13.8669C4.95995 13.8568 4.82876 13.8128 4.55111 13.5341C4.27011 13.252 3.93489 12.8311 3.4358 12.2016L2.26043 13.1336ZM6.8142 12.2016C6.31511 12.8311 5.97989 13.252 5.69889 13.5341C5.42124 13.8128 5.29005 13.8568 5.22633 13.8669L5.46234 15.3483C5.99305 15.2637 6.40294 14.9528 6.76159 14.5927C7.11691 14.236 7.51325 13.7343 7.98957 13.1336L6.8142 12.2016ZM14.625 13.75L14.625 2.375L13.125 2.375L13.125 13.75H14.625ZM10.9627 5.46597L12.1858 3.92337L11.0104 2.99143L9.78732 4.53403L10.9627 5.46597ZM15.5642 3.92337L16.7873 5.46597L17.9627 4.53403L16.7396 2.99143L15.5642 3.92337ZM12.1858 3.92337C12.6849 3.29392 13.0201 2.87299 13.3011 2.5909C13.5788 2.31218 13.7099 2.26821 13.7737 2.25806L13.5377 0.776745C13.0069 0.861302 12.5971 1.17224 12.2384 1.53229C11.8831 1.88898 11.4868 2.39069 11.0104 2.99143L12.1858 3.92337ZM16.7396 2.99143C16.2632 2.39069 15.8669 1.88898 15.5116 1.53229C15.1529 1.17224 14.743 0.861302 14.2123 0.776745L13.9763 2.25806C14.04 2.26821 14.1712 2.31218 14.4489 2.5909C14.7299 2.87299 15.0651 3.29392 15.5642 3.92337L16.7396 2.99143ZM13.7737 2.25806C13.8076 2.25265 13.8414 2.25 13.875 2.25V0.75C13.7621 0.75 13.6494 0.758947 13.5377 0.776745L13.7737 2.25806ZM13.875 2.25C13.9086 2.25 13.9424 2.25265 13.9763 2.25806L14.2123 0.776745C14.1006 0.758947 13.9879 0.75 13.875 0.75V2.25ZM14.625 2.375V1.5H13.125V2.375H14.625ZM4.78766 15.3483C4.89937 15.3661 5.01208 15.375 5.125 15.375L5.125 13.875C5.09141 13.875 5.05761 13.8723 5.02367 13.8669L4.78766 15.3483ZM5.125 15.375C5.23792 15.375 5.35063 15.3661 5.46234 15.3483L5.22633 13.8669C5.19239 13.8723 5.15859 13.875 5.125 13.875L5.125 15.375ZM4.375 13.75V14.625H5.875V13.75H4.375Z" fill="#EE46D3"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_122_81" x="-430.5" y="-552.68" width="2207.1" height="1646" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="187.5" result="effect1_foregroundBlur_122_81"/>
+</filter>
+<filter id="filter1_dd_122_81" x="-39" y="-42" width="441" height="769" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-4"/>
+<feGaussianBlur stdDeviation="7"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_122_81"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="7"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_122_81" result="effect2_dropShadow_122_81"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_122_81" result="shape"/>
+</filter>
+<clipPath id="clip0_122_81">
+<rect width="1440" height="1024" fill="white" transform="translate(-303 -266)"/>
+</clipPath>
+<clipPath id="clip1_122_81">
+<rect width="1440" height="1024" fill="white" transform="translate(-303 -266)"/>
+</clipPath>
+</defs>
+</svg>

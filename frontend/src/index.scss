@@ -1,0 +1,350 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/bg.svg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-attachment: fixed !important;
+
+    font-size: 1.6rem !important;
+    color: #fff !important;
+
+    animation: animateBackground 15s linear infinite;
+}
+
+@keyframes animateBackground {
+    0%,
+    100% {
+        background-position: center center;
+        background-size: 100%;
+    }
+    10% {
+        background-position: top left 0;
+        background-size: 120%;
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    25% {
+        background-position: top right 0;
+        background-size: 200%;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    40% {
+        background-position: bottom left -50%;
+        background-size: 150%;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    50% {
+        background-position: bottom right 0;
+        background-size: 120%;
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    60% {
+        background-position: center left -20%;
+        background-size: 180%;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    75% {
+        background-position: center right -20%;
+        background-size: 120%;
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    90% {
+        background-position: top left -20%;
+        background-size: 150%;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+}
+
+.heading-primary {
+    color: #fff;
+    text-align: center;
+    font-family: "Cerebri Sans Pro";
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 3.2rem;
+    }
+}
+
+.heading-secondary {
+    font-family: "Cerebri Sans Pro";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 2.6rem;
+    }
+}
+
+.heading-tertiary {
+    font-family: "Cerebri Sans Pro";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
+}
+
+.heading-quaternary {
+    font-family: "Cerebri Sans Pro";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 1.8rem;
+    }
+}
+
+.heading-quinary {
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 1.6rem;
+    }
+}
+
+.heading-senary {
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.body {
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 23.8px */
+}
+
+.meta {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tiny {
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+// font weights
+
+.font-heavy {
+    font-weight: 900;
+}
+
+// color variants
+
+.color-pink {
+    color: #ee46d3;
+}
+
+.color-blue {
+    color: #907cff;
+}
+
+.color-purple {
+    color: rgba(112, 0, 255, 0.6);
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-white {
+    color: #fff;
+}
+
+// Utility Classes
+
+.padding {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.boxed {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.gap {
+    display: flex;
+    gap: 0.5rem;
+}
+
+// Global Component Styles
+
+// .full-screen {
+//     width: 100%;
+//     height: 70vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+.btn {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 1.5rem 10rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #907cff;
+    transition: all 0.2s;
+
+    &:hover {
+        box-shadow: 0px 0px 20px 0px #907cff;
+    }
+}
+
+// Scrollbar customizations
+body::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fcfcfc;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #fff 0%, #ff00d6 54.67%, #fff 110.49%);
+    border-radius: 1rem;
+}
+
+// media queries
+
+@media only screen and (max-width: 1300px) {
+    @keyframes animateBackground {
+        0%,
+        100% {
+            background-position: center center;
+            background-size: 100%;
+        }
+        10% {
+            background-position: top left 0;
+            background-size: 120%;
+            animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        25% {
+            background-position: top right 0;
+            background-size: 200%;
+            animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        }
+        40% {
+            background-position: bottom left 0;
+            background-size: 150%;
+            animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        }
+        50% {
+            background-position: bottom right 0;
+            background-size: 120%;
+            animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        60% {
+            background-position: center left 20%;
+            background-size: 180%;
+            animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        }
+        75% {
+            background-position: center right 30%;
+            background-size: 120%;
+            animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        90% {
+            background-position: top left 10%;
+            background-size: 150%;
+            animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .padding {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .padding {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+// @media screen and (max-width: 768px) {
+//     .padding {
+//         padding-left: 4rem;
+//         padding-right: 4rem;
+//     }
+// }
+
+@media screen and (max-width: 600px) {
+    body {
+        animation: unset;
+    }
+    .padding {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+// animations
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

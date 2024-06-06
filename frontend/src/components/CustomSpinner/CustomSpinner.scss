@@ -1,0 +1,28 @@
+.custom-loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 8px solid #0000;
+    border-right-color: rgba(252, 252, 252, 0.6);
+    position: relative;
+    animation: s4 1s infinite linear;
+}
+.custom-loader:before,
+.custom-loader:after {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    border-radius: 50%;
+    border: inherit;
+    animation: inherit;
+    animation-duration: 1s;
+}
+.custom-loader:after {
+    animation-duration: 2s;
+}
+
+@keyframes s4 {
+    100% {
+        transform: rotate(1turn);
+    }
+}

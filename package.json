@@ -1,0 +1,14 @@
+{
+  "name": "internflow",
+  "version": "1.0.0",
+  "description": "Internflow application",
+  "main": "index.js", 
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend && node index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1" 
+  }
+}

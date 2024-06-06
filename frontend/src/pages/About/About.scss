@@ -1,0 +1,288 @@
+.about {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.7rem;
+    }
+
+    .heading-quaternary {
+        background: linear-gradient(
+            90deg,
+            #fff 0%,
+            #ff00d6 30%,
+            #907cff 60%,
+            #ee46d3 90%,
+            #fff 100%
+        );
+        background-size: 300%;
+
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        animation: animated_text 10s ease-in-out infinite;
+        -moz-animation: animated_text 10s ease-in-out infinite;
+        -webkit-animation: animated_text 10s ease-in-out infinite;
+    }
+
+    .heading-primary {
+        width: 75%;
+        text-align: center;
+    }
+
+    .heading-quinary {
+        width: 55%;
+        text-align: center;
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        margin-top: 4rem;
+
+        &__card {
+            padding: 2rem 2rem 4rem;
+            border-radius: 1.8rem;
+            display: flex;
+            flex-direction: column;
+            gap: 5rem;
+            background: #fff;
+            transition: all 0.2s;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0px -4px 14px 0px rgba(255, 255, 255, 0.25),
+                    0px 4px 14px 0px #fff;
+                transform: translateY(-0.5rem) scale(1.05);
+            }
+
+            .card-top {
+                display: flex;
+                flex-direction: column;
+                gap: 0.57rem;
+                align-items: flex-start;
+
+                .card-icon {
+                    padding-left: 2.5rem;
+                    transform: translateY(2.5rem);
+                }
+            }
+
+            .card-body {
+                .heading-quinary {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+            &:nth-child(1) {
+                .heading-secondary {
+                    padding: 3.5rem 0 0 2rem;
+                    border-left: 5px solid #ee46d3;
+                }
+
+                .heading-quinary {
+                    padding: 0 0 0 2.5rem;
+                    border-left: 2px solid #ee46d3;
+                }
+            }
+
+            &:nth-child(2) {
+                .heading-secondary {
+                    padding: 3.5rem 0 0 2rem;
+                    border-left: 5px solid #907cff;
+                }
+
+                .heading-quinary {
+                    padding: 0 0 0 2.5rem;
+                    border-left: 2px solid #907cff;
+                }
+            }
+
+            &:nth-child(3) {
+                .heading-secondary {
+                    padding: 3.5rem 0 0 2rem;
+                    border-left: 5px solid rgba(112, 0, 255, 0.6);
+                }
+
+                .heading-quinary {
+                    padding: 0 0 0 2.5rem;
+                    border-left: 2px solid rgba(112, 0, 255, 0.6);
+                }
+            }
+        }
+    }
+
+    .hr {
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        border-radius: 1rem;
+    }
+
+    &__faq {
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        padding-top: 3rem;
+
+        .heading-primary {
+            text-align: center;
+            width: 100% !important;
+        }
+
+        .accordion-item {
+            background-color: #fff;
+            border-radius: 1.4rem;
+            color: #000;
+            margin-bottom: 2rem;
+        }
+
+        .accordion-heading {
+            color: #7000ff;
+
+            /* Headings/Typography Size 4 */
+            font-family: DM Sans;
+            font-size: 22px !important;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 127.273% */
+            margin-right: 1rem;
+        }
+
+        .accordion-body {
+            padding: 1rem 2rem 2rem 2rem;
+        }
+
+        .accordion-btn {
+            padding: 2rem;
+        }
+
+        .accordion-icon {
+            background-color: #fff;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            font-size: 3rem;
+            border-radius: 50%;
+            color: #7000ff !important;
+
+            &.css-j2ph2z {
+                background-color: #7000ff !important;
+                color: #fff !important;
+            }
+        }
+    }
+
+    &__contact {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.7rem;
+
+        .heading-contact {
+            background: linear-gradient(
+                90deg,
+                #fff 0%,
+                #f00 10%,
+                #fff 30%,
+                #f00 50%,
+                #fff 60%,
+                #f00 70%,
+                #fff 80%,
+                #f00 100%
+            );
+
+            background-size: 300%;
+
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            animation: animated_text 10s ease-in-out infinite;
+            -moz-animation: animated_text 10s ease-in-out infinite;
+            -webkit-animation: animated_text 10s ease-in-out infinite;
+        }
+    }
+}
+
+.contact-link {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1150px) {
+    .about {
+        .heading-primary {
+            width: 80%;
+        }
+
+        .heading-quinary {
+            width: 70%;
+        }
+
+        &__cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        .heading-primary {
+            width: 90%;
+        }
+
+        .heading-quinary {
+            width: 90%;
+        }
+
+        &__cards {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        .heading-primary {
+            width: 100%;
+        }
+
+        .heading-quinary {
+            width: 100%;
+        }
+
+        &__cards {
+            grid-template-columns: 1fr;
+            margin-top: 2rem;
+
+            &__card {
+                gap: 3rem;
+            }
+        }
+    }
+}
+
+// aniamtions
+@keyframes animated_text {
+    0% {
+        background-position: 0px 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0px 50%;
+    }
+}
